@@ -63,7 +63,7 @@ header {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background: url('https://i.imgur.com/Rq6eFjQ.png') center/cover no-repeat; /* Gojo fanart placeholder */
+  background: url('assets/gojo.png') center/cover no-repeat;
   box-shadow: 0 0 30px var(--gojo-blue);
 }
 
