@@ -224,3 +224,35 @@ footer a:hover {
 .collapsible-header.active::after {
   transform: rotate(-180deg);
 }
+
+/* About image placeholder */
+.about-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 3px solid var(--gojo-blue);
+  box-shadow: 0 0 20px var(--gojo-purple);
+  object-fit: cover;
+}
+
+/* Publications */
+.pub-list {
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem 2rem;
+  list-style: "📖 ";
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Make project cards clickable links */
+.projects a.project-card {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.projects a.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px var(--gojo-purple);
+}
