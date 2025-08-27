@@ -63,7 +63,7 @@ header {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background: url('https://www.pngmart.com/files/22/Anime-Boy-PNG.png') center/cover no-repeat;
+  background: url('assets/gojo.jpg') center/cover no-repeat;
   box-shadow: 0 0 30px var(--gojo-blue);
 }
 
